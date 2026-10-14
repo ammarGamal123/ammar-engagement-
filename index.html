@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+  <meta name="theme-color" content="#070e18">
+
+  <!-- عنوان ووصف الصفحة لمشاركة الرابط والـ SEO -->
+  <title>دعوة حفل خطوبة عمار ♥ سارة 💍</title>
+  <meta name="description" content="يسعدنا ويشرفنا دعوتكم لحضور حفل خطوبتنا — عمار ♥ سارة. يوم الجمعة 16 أكتوبر 2026 (5 جمادى الأولى 1448 هـ) الساعة 8:30 مساءً في بني زايد امام مطعم هيما الكلباوي. فرحتنا تكتمل بوجودكم 💍">
+  <meta name="keywords" content="دعوة خطوبة, عمار وسارة, خطوبة عمار وسارة, بني زايد, مطعم هيما الكلباوي">
+
+  <!-- OpenGraph / WhatsApp / Facebook Preview Cards -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="دعوة حفل خطوبة عمار ♥ سارة 💍">
+  <meta property="og:description" content="يسعدنا ويشرفنا مشاركتكم فرحتنا بحفل خطوبتنا في بني زايد امام مطعم هيما الكلباوي. اضغط على الظرف لفتح الدعوة ♥">
+  <meta property="og:image" content="engagement-share-preview.png">
+  <meta property="og:image:alt" content="دعوة خطوبة عمار وسارة">
+  <meta property="og:locale" content="ar_EG">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="دعوة حفل خطوبة عمار ♥ سارة 💍">
+  <meta name="twitter:description" content="يسعدنا ويشرفنا مشاركتكم فرحتنا بحفل خطوبتنا في بني زايد امام مطعم هيما الكلباوي. اضغط لفتح الدعوة ♥">
+  <meta name="twitter:image" content="engagement-share-preview.png">
+
+  <!-- تحسينات الهواتف الذكية والتطبيقات (iOS & Android WebViews) -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="format-detection" content="telephone=no">
+
+  <!-- Google Fonts: Amiri & Cairo -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- النجوم والبتلات الاحتفالية المتساقطة في الخلفية -->
+  <div class="stars" id="stars" aria-hidden="true"></div>
+  <div class="petals" id="petals" aria-hidden="true"></div>
+
+  <!-- 1. شاشة الغلاف والظرف التفاعلي الكحلي والبرجندي المطور -->
+  <section class="opening" id="opening">
+    <div class="intro">
+      <div class="intro-ornament" aria-hidden="true">❦</div>
+      <div class="eyebrow">دعوة لحضور حفل خطوبتنا المبارك</div>
+      <h1>
+        <span id="coverGroom">عمار</span>
+        <span style="color: var(--burgundy-bright);">♥</span>
+        <span id="coverBride">سارة</span>
+        <span class="cover-message">فرحتنا تكمل بوجودكم 💍</span>
+      </h1>
+
+      <!-- الظرف ثلاثي الأبعاد مع بطاقة الانزلاق -->
+      <div class="envelope-wrapper">
+        <div class="envelope" id="envelope" role="button" tabindex="0" aria-label="افتح دعوة خطوبة عمار وسارة">
+          <div class="env-back"></div>
+          
+          <!-- بطاقة المعاينة الداخلية المنزلقة الحاملة لمونوغرام ع س الأصلي -->
+          <div class="env-letter-preview" id="letterPreview">
+            <!-- مونوغرام ع س الأصلي المستخرج من كارتكم -->
+            <img class="monogram-mini-img" src="./monogram.png" alt="ع س">
+            <span class="preview-text">عمار ♥ سارة</span>
+          </div>
+
+          <div class="env-front"></div>
+          <div class="env-flap"></div>
+          
+          <!-- الختم الشمعي البرجندي المذهب -->
+          <div class="seal" id="seal">
+            <img class="monogram-seal-img" src="./monogram.png" alt="ع س">
+          </div>
+        </div>
+      </div>
+
+      <button class="open-btn" id="openBtn">
+        ✨ اضغط على الظرف لفتح الدعوة
+      </button>
+    </div>
+  </section>
+
+  <!-- 2. بطاقة الدعوة الملكية الطبيعية (مأخوذة مباشرة من صورة الكارت الفعلي) -->
+  <main class="site" id="site">
+    <article class="invitation-card" id="invitationCard">
+      
+      <!-- حبات اللؤلؤ الطبيعية البارزة (3D Pearls كما في الصورة تماماً) -->
+      <!-- 1. ثلاث حبات لؤلؤ في الزاوية العلوية اليمنى -->
+      <div class="pearl-cluster-top-right" aria-hidden="true">
+        <span class="pearl"></span>
+        <span class="pearl"></span>
+        <span class="pearl"></span>
+      </div>
+
+      <!-- 2. حبة لؤلؤ واحدة في منتصف الحافة اليسرى -->
+      <div class="pearl-single-mid-left" aria-hidden="true">
+        <span class="pearl"></span>
+      </div>
+
+      <!-- 3. ثلاث حبات لؤلؤ في الزاوية السفلية اليسرى -->
+      <div class="pearl-cluster-bottom-left" aria-hidden="true">
+        <span class="pearl"></span>
+        <span class="pearl"></span>
+        <span class="pearl"></span>
+      </div>
+
+      <!-- الآية القرآنية الكريمة المباركة -->
+      <div class="quran-verse">
+        <span class="quran-basmalah">﷽</span>
+        ﴿ وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً ﴾
+      </div>
+
+      <!-- المونوغرام الكاليغرافي العربي "ع س" في أعلى الكارت (مقتبس طبق الأصل من كارتكم) -->
+      <img class="monogram-img" src="./monogram.png" alt="مونوغرام عمار وسارة (ع س)">
+      
+      <!-- الأسماء: عمار [القلبان المتشابكان من الكارت الأصلي] سارة -->
+      <div class="names-row">
+        <span id="groomName">عمار</span>
+        <img class="hearts-img" src="./hearts.png" alt="قلوب متشابكة">
+        <span id="brideName">سارة</span>
+      </div>
+
+      <!-- التاريخ الهجري كما هو في الكارت: ٥ جمادى الأولى ١٤٤٨ هـ -->
+      <div class="hijri-date-badge">
+        ٥ جمادى الأولى ١٤٤٨ هـ
+      </div>
+
+      <div class="gold-divider" style="margin: 8px auto 14px; width: 60%;" aria-hidden="true"></div>
+
+      <!-- نص الدعوة الرسمي المخصص للخطوبة -->
+      <p class="invitation-message">
+        لأن أجمل اللحظات لا تكتمل إلا بوجود الأحبة والأصدقاء<br>
+        يسعدنا ويشرفنا أن تشاركونا فرحتنا بحفل خطوبتنا المبارك
+      </p>
+
+      <!-- كروت تفاصيل الموعد والمكان المحدثة بدقة -->
+      <section class="details-box" aria-label="تفاصيل الحفل">
+        <div class="detail-row">
+          <div class="detail-ico" aria-hidden="true">📅</div>
+          <h3 class="detail-title">التاريخ</h3>
+          <p class="detail-value" id="dateText">الجمعة ١٦ أكتوبر ٢٠٢٦</p>
+        </div>
+        <div class="detail-row">
+          <div class="detail-ico" aria-hidden="true">🕗</div>
+          <h3 class="detail-title">الموعد</h3>
+          <p class="detail-value" id="timeText">
+            الساعة 8:30 مساءً
+            <span class="time-tag">بعد صلاة العشاء</span>
+          </p>
+        </div>
+        <div class="detail-row">
+          <div class="detail-ico" aria-hidden="true">📍</div>
+          <h3 class="detail-title">المكان</h3>
+          <p class="detail-value" id="venueText">بني زايد امام مطعم هيما الكلباوي</p>
+        </div>
+      </section>
+
+      <!-- العداد التنازلي المباشر -->
+      <section class="countdown-section" aria-label="العد التنازلي">
+        <div class="countdown-title">
+          <span>⏳</span>
+          <span>العد التنازلي لخطوبتنا</span>
+        </div>
+        <div class="countdown-grid" id="countdown">
+          <div class="timebox">
+            <strong id="days">00</strong>
+            <span>يوم</span>
+          </div>
+          <div class="timebox">
+            <strong id="hours">00</strong>
+            <span>ساعة</span>
+          </div>
+          <div class="timebox">
+            <strong id="minutes">00</strong>
+            <span>دقيقة</span>
+          </div>
+          <div class="timebox">
+            <strong id="seconds">00</strong>
+            <span>ثانية</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- أزرار الإجراءات السريعة (الموقع والتقويم) -->
+      <div class="actions-row">
+        <a class="action-btn primary" id="mapLink" href="https://maps.app.goo.gl/kuFqbsdkvJkTpZNR6" target="_blank" rel="noopener">
+          📍 موقع المكان (Google Maps)
+        </a>
+        <button class="action-btn secondary" id="calendarBtn">
+          📅 أضف إلى التقويم
+        </button>
+      </div>
+
+      <!-- كارت إرسال التهاني عبر واتساب المخصص للرقم +201153751600 -->
+      <section class="wishes-card" aria-label="إرسال التهنئة">
+        <h3 class="wishes-header">💌 شارك العروسين فرحتهم بالتهنئة</h3>
+        <p class="wishes-sub">اختر عبارة جاهزة أو اكتب تهنئتك الخاصة مباشرة:</p>
+        
+        <div class="quick-wishes-chips">
+          <button class="wish-chip" type="button" data-wish="ألف مبروك لأجمل عمار وسارة! ربنا يتمم لكم على خير وسعادة 💍❤️">
+            💍 ألف مبروك لأجمل عمار وسارة
+          </button>
+          <button class="wish-chip" type="button" data-wish="بارك الله لكما وبارك عليكما وجمع بينكما في خير وسعادة 💖✨">
+            ✨ بارك الله لكما وبارك عليكما
+          </button>
+          <button class="wish-chip" type="button" data-wish="ألف مبروك الخطوبة المباركة وعقبال الفرحة الكبيرة إن شاء الله 💐">
+            💐 عقبال الفرحة الكبيرة
+          </button>
+        </div>
+
+        <a class="whatsapp-congrats-btn" id="whatsappCongratsBtn" href="https://wa.me/201153751600" target="_blank" rel="noopener">
+          💬 أرسل التهنئة للعروسين عبر واتساب
+        </a>
+      </section>
+
+      <!-- الفوتر وزر المشاركة -->
+      <footer class="card-footer">
+        <h2 class="footer-title">مستنيينكم تنوّروا فرحتنا</h2>
+        <p class="footer-text">حضوركم يكمّل حكايتنا ويسعد قلوبنا 💖</p>
+        
+        <div class="actions-row">
+          <button class="action-btn secondary" id="shareBtn">
+            💌 شارك الدعوة مع الأحباب
+          </button>
+        </div>
+      </footer>
+    </article>
+  </main>
+
+  <!-- زر التحكم بالأغنية العائم والشارة التوضيحية -->
+  <button class="music-btn" id="musicBtn" title="تشغيل أو إيقاف الأغنية" aria-label="تشغيل أو إيقاف الأغنية" hidden>
+    ♫
+  </button>
+  <div class="music-tooltip" id="musicTooltip">يا دبلة الخطوبة (بدون موسيقى) ♫</div>
+
+  <!-- مشغل الصوت: أغنية يا دبلة الخطوبة بدون موسيقى مع دعم التشغيل المباشر في هواتف آيفون وأندرويد -->
+  <audio id="music" loop preload="auto" playsinline webkit-playsinline>
+    <source src="./engagement-music.mp4" type="audio/mp4">
+    <source src="./engagement-music.m4a" type="audio/mp4">
+    <source src="./engagement-music.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- إشعار نسخ الرابط المنبثق -->
+  <div class="toast" id="toast" role="status" aria-live="polite">تم نسخ رابط الدعوة بنجاح ♥</div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
